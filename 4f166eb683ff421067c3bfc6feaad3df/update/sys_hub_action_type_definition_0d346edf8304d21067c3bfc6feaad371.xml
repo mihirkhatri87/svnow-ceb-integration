@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>carbonite_device_health</internal_name>
+        <label_cache>[{"name":"{{action.baseurl}}","label":"action➛baseURL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.calleremail}}","label":"action➛callerEmail","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.apikey}}","label":"action➛apiKey","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>1d352a538344d21067c3bfc6feaad39d</master_snapshot>
+        <name>Carbonite Device Health</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 14:56:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0d346edf8304d21067c3bfc6feaad371</sys_id>
+        <sys_mod_count>75</sys_mod_count>
+        <sys_name>Carbonite Device Health</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_0d346edf8304d21067c3bfc6feaad371</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:20:51</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=0d346edf8304d21067c3bfc6feaad371"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0d346edf8304d21067c3bfc6feaad371"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>0d346edf8304d21067c3bfc6feaad371</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:11</sys_created_on>
+        <sys_id>8f0526538344d21067c3bfc6feaad306</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:53:01</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">7a05e2538344d21067c3bfc6feaad3d1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>0d346edf8304d21067c3bfc6feaad371</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:11</sys_created_on>
+        <sys_id>cb0526538344d21067c3bfc6feaad306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 15:00:11</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">ba05e2538344d21067c3bfc6feaad3d9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_0d346edf8304d21067c3bfc6feaad371^id=0d346edf8304d21067c3bfc6feaad371"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=0d346edf8304d21067c3bfc6feaad371^sys_idNOT IN7205e2538344d21067c3bfc6feaad3a1"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Carbonite Device Health">0d346edf8304d21067c3bfc6feaad371</action>
+        <cid>aa5d98e2-65d0-4470-b8c1-3fa0d580985e</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:10</sys_created_on>
+        <sys_id>7205e2538344d21067c3bfc6feaad3a1</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:19:45</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7205e2538344d21067c3bfc6feaad3a1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7205e2538344d21067c3bfc6feaad3a1</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:10</sys_created_on>
+        <sys_id>7605e2538344d21067c3bfc6feaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 15:00:10</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7205e2538344d21067c3bfc6feaad3a1</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:10</sys_created_on>
+        <sys_id>be05e2538344d21067c3bfc6feaad3cd</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:19:45</sys_updated_on>
+        <value>(function execute(inputs, outputs) &#13;
+{&#13;
+	try {&#13;
+		gs.info(current);&#13;
+		var gr = new GlideRecord('x_1509365_mktest_carboniteintegrationconfiguration');&#13;
+		gr.query();&#13;
+		while(gr.next())&#13;
+		{&#13;
+			var scheduledJobName = 'CarboniteTestDataPull';&#13;
+			var scheduledJob = new GlideRecord('sysauto');&#13;
+			scheduledJob.addQuery("name", scheduledJobName);&#13;
+			scheduledJob.addQuery("sys_scope", gs.getCurrentApplicationId());&#13;
+			scheduledJob.query();&#13;
+&#13;
+			if (scheduledJob.next())&#13;
+			{&#13;
+				scheduledJob.run_period = new GlideDuration(gr.schedulefrequency);&#13;
+				scheduledJob.active = true;&#13;
+				scheduledJob.run_start = new GlideDateTime();&#13;
+				scheduledJob.update();&#13;
+				gs.info('Scheduled Job frequency updated successfully.');&#13;
+			}&#13;
+			else&#13;
+			{&#13;
+				gs.info('Scheduled Job not found.');&#13;
+			}&#13;
+		}&#13;
+	}catch(ex){&#13;
+		throw ex;&#13;
+	}&#13;
+}&#13;
+)(inputs, outputs);&#13;
+	</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=7205e2538344d21067c3bfc6feaad3a1"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=7205e2538344d21067c3bfc6feaad3a1"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7205e2538344d21067c3bfc6feaad3a1"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7205e2538344d21067c3bfc6feaad3a1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7205e2538344d21067c3bfc6feaad3a1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_7205e2538344d21067c3bfc6feaad3a1"/>
+    <sys_hub_action_input action="delete_multiple" query="model=0d346edf8304d21067c3bfc6feaad371"/>
+    <sys_hub_action_output action="delete_multiple" query="model=0d346edf8304d21067c3bfc6feaad371^sys_idNOT IN7a05e2538344d21067c3bfc6feaad3d1,ba05e2538344d21067c3bfc6feaad3d9"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=aa251ea4-abcd-4846-bede-3eae4a6082e6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Carbonite Device Health">0d346edf8304d21067c3bfc6feaad371</model>
+        <model_id>0d346edf8304d21067c3bfc6feaad371</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_0d346edf8304d21067c3bfc6feaad371</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:10</sys_created_on>
+        <sys_id>7a05e2538344d21067c3bfc6feaad3d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 15:00:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7a05e2538344d21067c3bfc6feaad3d1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7a05e2538344d21067c3bfc6feaad3d1"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=651c169a-e70c-43f3-a045-2392149e77e3,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Carbonite Device Health">0d346edf8304d21067c3bfc6feaad371</model>
+        <model_id>0d346edf8304d21067c3bfc6feaad371</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_0d346edf8304d21067c3bfc6feaad371</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:11</sys_created_on>
+        <sys_id>ba05e2538344d21067c3bfc6feaad3d9</sys_id>
+        <sys_mod_count>71</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:20:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ba05e2538344d21067c3bfc6feaad3d9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ba05e2538344d21067c3bfc6feaad3d9"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0d346edf8304d21067c3bfc6feaad371"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=0d346edf8304d21067c3bfc6feaad371^sys_idNOT INcf0526538344d21067c3bfc6feaad308"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Carbonite Device Health">0d346edf8304d21067c3bfc6feaad371</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:11</sys_created_on>
+        <sys_id>cf0526538344d21067c3bfc6feaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 15:00:11</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=cf0526538344d21067c3bfc6feaad308"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_0d346edf8304d21067c3bfc6feaad371"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_0d346edf8304d21067c3bfc6feaad371"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_0d346edf8304d21067c3bfc6feaad371^sys_idNOT IN8b05e2538344d21067c3bfc6feaad3de,f605e2538344d21067c3bfc6feaad3d5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0d346edf8304d21067c3bfc6feaad371</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:11</sys_created_on>
+        <sys_id>8b05e2538344d21067c3bfc6feaad3de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 15:00:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0d346edf8304d21067c3bfc6feaad371</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:10</sys_created_on>
+        <sys_id>f605e2538344d21067c3bfc6feaad3d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 15:00:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_0d346edf8304d21067c3bfc6feaad371"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=0d346edf8304d21067c3bfc6feaad371^sys_idNOT IN35352a538344d21067c3bfc6feaad3f4"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Carbonite Device Health">0d346edf8304d21067c3bfc6feaad371</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"35352a538344d21067c3bfc6feaad3f4","name":"plan","plan_signature":null}}</plan>
+        <snapshot>54c1d39c8338521067c3bfc6feaad310</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>35352a538344d21067c3bfc6feaad3f4</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:20:51</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>carbonite_device_health</internal_name>
+        <label_cache>[{"name":"{{action.baseurl}}","label":"action➛baseURL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.calleremail}}","label":"action➛callerEmail","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.apikey}}","label":"action➛apiKey","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Carbonite Device Health</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Carbonite Device Health">0d346edf8304d21067c3bfc6feaad371</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1d352a538344d21067c3bfc6feaad39d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 15:00:53</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=1d352a538344d21067c3bfc6feaad39d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1d352a538344d21067c3bfc6feaad39d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>1d352a538344d21067c3bfc6feaad39d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:54</sys_created_on>
+        <sys_id>29352a538344d21067c3bfc6feaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 15:00:54</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">19352a538344d21067c3bfc6feaad3c6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>1d352a538344d21067c3bfc6feaad39d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:54</sys_created_on>
+        <sys_id>e9352a538344d21067c3bfc6feaad3cd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:53:05</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">95352a538344d21067c3bfc6feaad3c2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_1d352a538344d21067c3bfc6feaad39d^id=1d352a538344d21067c3bfc6feaad39d"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=1d352a538344d21067c3bfc6feaad39d^sys_idNOT IN1d352a538344d21067c3bfc6feaad3ae"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Carbonite Device Health">1d352a538344d21067c3bfc6feaad39d</action>
+        <cid>aa5d98e2-65d0-4470-b8c1-3fa0d580985e</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:53</sys_created_on>
+        <sys_id>1d352a538344d21067c3bfc6feaad3ae</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:20:50</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1d352a538344d21067c3bfc6feaad3ae"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1d352a538344d21067c3bfc6feaad3ae</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:53</sys_created_on>
+        <sys_id>9d352a538344d21067c3bfc6feaad3be</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:20:50</sys_updated_on>
+        <value>(function execute(inputs, outputs) &#13;
+{&#13;
+	try {&#13;
+		gs.info(current);&#13;
+		var gr = new GlideRecord('x_1509365_mktest_carboniteintegrationconfiguration');&#13;
+		gr.query();&#13;
+		while(gr.next())&#13;
+		{&#13;
+			var scheduledJobName = 'CarboniteTestDataPull';&#13;
+			var scheduledJob = new GlideRecord('sysauto');&#13;
+			scheduledJob.addQuery("name", scheduledJobName);&#13;
+			scheduledJob.addQuery("sys_scope", gs.getCurrentApplicationId());&#13;
+			scheduledJob.query();&#13;
+&#13;
+			if (scheduledJob.next())&#13;
+			{&#13;
+				scheduledJob.run_period = new GlideDuration(gr.schedulefrequency);&#13;
+				scheduledJob.active = true;&#13;
+				scheduledJob.run_start = new GlideDateTime();&#13;
+				scheduledJob.update();&#13;
+				gs.info('Scheduled Job frequency updated successfully.');&#13;
+			}&#13;
+			else&#13;
+			{&#13;
+				gs.info('Scheduled Job not found.');&#13;
+			}&#13;
+		}&#13;
+	}catch(ex){&#13;
+		throw ex;&#13;
+	}&#13;
+}&#13;
+)(inputs, outputs);&#13;
+	</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1d352a538344d21067c3bfc6feaad3ae</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:53</sys_created_on>
+        <sys_id>d9352a538344d21067c3bfc6feaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 15:00:53</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=1d352a538344d21067c3bfc6feaad3ae"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=1d352a538344d21067c3bfc6feaad3ae"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=1d352a538344d21067c3bfc6feaad3ae"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=1d352a538344d21067c3bfc6feaad3ae"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1d352a538344d21067c3bfc6feaad3ae"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_1d352a538344d21067c3bfc6feaad3ae"/>
+    <sys_hub_action_input action="delete_multiple" query="model=1d352a538344d21067c3bfc6feaad39d"/>
+    <sys_hub_action_output action="delete_multiple" query="model=1d352a538344d21067c3bfc6feaad39d^sys_idNOT IN19352a538344d21067c3bfc6feaad3c6,95352a538344d21067c3bfc6feaad3c2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=651c169a-e70c-43f3-a045-2392149e77e3,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Carbonite Device Health">1d352a538344d21067c3bfc6feaad39d</model>
+        <model_id>1d352a538344d21067c3bfc6feaad39d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_1d352a538344d21067c3bfc6feaad39d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:54</sys_created_on>
+        <sys_id>19352a538344d21067c3bfc6feaad3c6</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:20:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=19352a538344d21067c3bfc6feaad3c6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=19352a538344d21067c3bfc6feaad3c6"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=aa251ea4-abcd-4846-bede-3eae4a6082e6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Carbonite Device Health">1d352a538344d21067c3bfc6feaad39d</model>
+        <model_id>1d352a538344d21067c3bfc6feaad39d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_1d352a538344d21067c3bfc6feaad39d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:54</sys_created_on>
+        <sys_id>95352a538344d21067c3bfc6feaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 15:00:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=95352a538344d21067c3bfc6feaad3c2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=95352a538344d21067c3bfc6feaad3c2"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=1d352a538344d21067c3bfc6feaad39d"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=1d352a538344d21067c3bfc6feaad39d^sys_idNOT INa9352a538344d21067c3bfc6feaad3cf"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Carbonite Device Health">1d352a538344d21067c3bfc6feaad39d</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:54</sys_created_on>
+        <sys_id>a9352a538344d21067c3bfc6feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 15:00:54</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=a9352a538344d21067c3bfc6feaad3cf"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_1d352a538344d21067c3bfc6feaad39d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_1d352a538344d21067c3bfc6feaad39d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_1d352a538344d21067c3bfc6feaad39d^sys_idNOT IN51352a538344d21067c3bfc6feaad3cb,5d352a538344d21067c3bfc6feaad3c5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1d352a538344d21067c3bfc6feaad39d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:54</sys_created_on>
+        <sys_id>51352a538344d21067c3bfc6feaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 15:00:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1d352a538344d21067c3bfc6feaad39d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 15:00:54</sys_created_on>
+        <sys_id>5d352a538344d21067c3bfc6feaad3c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 15:00:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_1d352a538344d21067c3bfc6feaad39d"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>0d346edf8304d21067c3bfc6feaad371</sys_id>
+        <latest_snapshot>1d352a538344d21067c3bfc6feaad39d</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch4-hotfix1-06-10-2024_06-17-2024_2231.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

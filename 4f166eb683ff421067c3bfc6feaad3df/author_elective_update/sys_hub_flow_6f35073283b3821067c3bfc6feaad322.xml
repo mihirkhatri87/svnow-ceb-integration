@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>datapuller</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>DataPuller</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-07 17:48:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6f35073283b3821067c3bfc6feaad322</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>DataPuller</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name>sys_hub_flow_6f35073283b3821067c3bfc6feaad322</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-07 18:07:05</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=6f35073283b3821067c3bfc6feaad322"/>
+    <sys_variable_value action="DELETE" query="document_key=6f35073283b3821067c3bfc6feaad322"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=6f35073283b3821067c3bfc6feaad322"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=6f35073283b3821067c3bfc6feaad322"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=6f35073283b3821067c3bfc6feaad322^sys_idNOT INef35073283b3821067c3bfc6feaad324"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>6f35073283b3821067c3bfc6feaad322</id>
+        <name>DataPuller</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-07 17:48:11</sys_created_on>
+        <sys_id>ef35073283b3821067c3bfc6feaad324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-07 17:48:11</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=ef35073283b3821067c3bfc6feaad324"/>
+    <sys_hub_flow_input action="DELETE" query="model=6f35073283b3821067c3bfc6feaad322"/>
+    <sys_hub_flow_output action="DELETE" query="model=6f35073283b3821067c3bfc6feaad322"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=6f35073283b3821067c3bfc6feaad322"/>
+    <sys_hub_action_instance action="DELETE" query="flow=6f35073283b3821067c3bfc6feaad322"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=6f35073283b3821067c3bfc6feaad322"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=6f35073283b3821067c3bfc6feaad322"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=6f35073283b3821067c3bfc6feaad322"/>
+    <sys_hub_flow_variable action="DELETE" query="model=6f35073283b3821067c3bfc6feaad322"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_6f35073283b3821067c3bfc6feaad322"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_6f35073283b3821067c3bfc6feaad322"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_6f35073283b3821067c3bfc6feaad322"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_6f35073283b3821067c3bfc6feaad322"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=6f35073283b3821067c3bfc6feaad322"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=6f35073283b3821067c3bfc6feaad322"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</application>
+        <file_path/>
+        <instance_id>9af368c9ff8b8e1cc80bf8e4fc4fd918</instance_id>
+        <instance_name>dev276176</instance_name>
+        <name>sys_hub_flow_6f35073283b3821067c3bfc6feaad322</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><attributes>labelCacheCleanUpExecuted=true</attributes><authored_on_release_version>25000</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from><copied_from_name>FlowTemplate_Empty</copied_from_name><description/><display_name_after_preview/><flow_priority>MEDIUM</flow_priority><generation_source/><internal_name>datapuller</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>DataPuller</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>system</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><substatus/><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-07 17:48:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6f35073283b3821067c3bfc6feaad322</sys_id><sys_mod_count>3</sys_mod_count><sys_name>DataPuller</sys_name><sys_overrides/><sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package><sys_policy/><sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope><sys_update_name>sys_hub_flow_6f35073283b3821067c3bfc6feaad322</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-07 18:07:05</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=6f35073283b3821067c3bfc6feaad322"/><sys_variable_value action="delete_multiple" query="document_key=6f35073283b3821067c3bfc6feaad322"/><sys_hub_trigger_instance action="delete_multiple" query="flow=6f35073283b3821067c3bfc6feaad322"/><sys_hub_flow_stage action="delete_multiple" query="flow=6f35073283b3821067c3bfc6feaad322"/><sys_flow_cat_variable_model action="delete_multiple" query="id=6f35073283b3821067c3bfc6feaad322^sys_idNOT INef35073283b3821067c3bfc6feaad324"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>6f35073283b3821067c3bfc6feaad322</id><name>DataPuller</name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-07 17:48:11</sys_created_on><sys_id>ef35073283b3821067c3bfc6feaad324</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-07 17:48:11</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ef35073283b3821067c3bfc6feaad324"/><sys_hub_flow_input action="delete_multiple" query="model=6f35073283b3821067c3bfc6feaad322"/><sys_hub_flow_output action="delete_multiple" query="model=6f35073283b3821067c3bfc6feaad322"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=6f35073283b3821067c3bfc6feaad322"/><sys_hub_action_instance action="delete_multiple" query="flow=6f35073283b3821067c3bfc6feaad322"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=6f35073283b3821067c3bfc6feaad322"/><sys_hub_flow_logic action="delete_multiple" query="flow=6f35073283b3821067c3bfc6feaad322"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=6f35073283b3821067c3bfc6feaad322"/><sys_hub_flow_variable action="delete_multiple" query="model=6f35073283b3821067c3bfc6feaad322"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_6f35073283b3821067c3bfc6feaad322"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_6f35073283b3821067c3bfc6feaad322"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_6f35073283b3821067c3bfc6feaad322"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_6f35073283b3821067c3bfc6feaad322"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=6f35073283b3821067c3bfc6feaad322"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=6f35073283b3821067c3bfc6feaad322"/></record_update>]]></payload>
+        <payload_hash>428630282</payload_hash>
+        <record_name>DataPuller</record_name>
+        <reverted_from/>
+        <source>cf166eb683ff421067c3bfc6feaad3e3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-07 18:07:05</sys_created_on>
+        <sys_id>98990bb683b3821067c3bfc6feaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1912e05ebfb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-07 18:07:05</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>50990bb637b38210af490e7931379583</update_guid>
+        <update_guid_history>50990bb637b38210af490e7931379583:428630282,1c990bb687b38210f9c1299d0afbb879:704472073,6b35073201b38210058708f7f317d528:640916281</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-07 18:09:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>8cc0861c39a649e8a52d2ae44d9fce81</sys_id>
+        <sys_metadata>6f35073283b3821067c3bfc6feaad322</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DataPuller</sys_name>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_scope_delete display_value="">00d6e8758b3c478ab66d14f0d8f1bde1</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_6f35073283b3821067c3bfc6feaad322</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_6f35073283b3821067c3bfc6feaad322">98990bb683b3821067c3bfc6feaad383</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-07 18:09:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

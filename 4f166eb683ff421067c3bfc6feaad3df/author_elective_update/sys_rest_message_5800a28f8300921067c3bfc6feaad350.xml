@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="DELETE">
+        <access>package_private</access>
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description/>
+        <name>CarbTokenRetrievalMessage</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://carbtestvault01.datacastlevault.com/api/tokens/apikey</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-20 20:04:25</sys_created_on>
+        <sys_id>5800a28f8300921067c3bfc6feaad350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CarbTokenRetrievalMessage</sys_name>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name>sys_rest_message_5800a28f8300921067c3bfc6feaad350</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-20 20:04:25</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</application>
+        <file_path/>
+        <instance_id>9af368c9ff8b8e1cc80bf8e4fc4fd918</instance_id>
+        <instance_name>dev276176</instance_name>
+        <name>sys_rest_message_5800a28f8300921067c3bfc6feaad350</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>package_private</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description/><name>CarbTokenRetrievalMessage</name><oauth2_profile/><protocol_name/><rest_endpoint>https://carbtestvault01.datacastlevault.com/api/tokens/apikey</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-20 20:04:25</sys_created_on><sys_id>5800a28f8300921067c3bfc6feaad350</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CarbTokenRetrievalMessage</sys_name><sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package><sys_policy/><sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope><sys_update_name>sys_rest_message_5800a28f8300921067c3bfc6feaad350</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-20 20:04:25</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+        <payload_hash>252641194</payload_hash>
+        <record_name>CarbTokenRetrievalMessage</record_name>
+        <reverted_from/>
+        <source>cf166eb683ff421067c3bfc6feaad3e3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-20 20:04:25</sys_created_on>
+        <sys_id>7d112a038340921067c3bfc6feaad3d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191716402550000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-20 20:04:25</sys_updated_on>
+        <type>REST Message</type>
+        <update_guid>71112a03a2409210aacaf00b50fbadd2</update_guid>
+        <update_guid_history>71112a03a2409210aacaf00b50fbadd2:252641194</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 17:53:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message">sys_rest_message</sys_db_object>
+        <sys_id>b2d28cdd011744c3ae355efbf0a17e69</sys_id>
+        <sys_metadata>5800a28f8300921067c3bfc6feaad350</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CarbTokenRetrievalMessage</sys_name>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_scope_delete display_value="">00d6e8758b3c478ab66d14f0d8f1bde1</sys_scope_delete>
+        <sys_update_name>sys_rest_message_5800a28f8300921067c3bfc6feaad350</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_5800a28f8300921067c3bfc6feaad350">7d112a038340921067c3bfc6feaad3d2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:53:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

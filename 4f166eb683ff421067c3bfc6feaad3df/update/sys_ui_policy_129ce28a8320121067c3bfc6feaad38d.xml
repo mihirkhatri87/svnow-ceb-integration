@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	if (g_form.getValue('calleremail')) {
+		var email = g_form.getValue('calleremail');
+		var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+		
+		if (!emailRegex.test(email)) {
+			g_form.showFieldMsg('calleremail', 'Invalid email format. Please enter a valid email address.', 'error');
+			return false;
+		}
+	}
+}]]></script_true>
+        <set_values/>
+        <short_description>CarbIntegrationConfiguration Form Validation </short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-11 14:55:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>129ce28a8320121067c3bfc6feaad38d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>CarbIntegrationConfiguration Form Validation </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name>sys_ui_policy_129ce28a8320121067c3bfc6feaad38d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-11 15:42:46</sys_updated_on>
+        <table>x_1509365_mktest_carboniteintegrationconfiguration</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

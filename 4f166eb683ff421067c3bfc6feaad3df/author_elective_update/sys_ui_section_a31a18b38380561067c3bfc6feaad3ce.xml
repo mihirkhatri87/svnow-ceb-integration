@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="CEB API Endpoint Configuration" section_id="a31a18b38380561067c3bfc6feaad3ce" sys_domain="global" table="x_1509365_mktest_carboniteintegrationconfiguration" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>apikeysecret</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-22 18:21:24</sys_created_on>
+            <sys_id>5cbc9c778380561067c3bfc6feaad3b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CEB API Endpoint Configuration" display_value="CEB API Endpoint Configuration" name="x_1509365_mktest_carboniteintegrationconfiguration" sys_domain="global" view="Default view">a31a18b38380561067c3bfc6feaad3ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-22 18:21:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>baseurl</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-22 18:21:24</sys_created_on>
+            <sys_id>54bc9c778380561067c3bfc6feaad3b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CEB API Endpoint Configuration" display_value="CEB API Endpoint Configuration" name="x_1509365_mktest_carboniteintegrationconfiguration" sys_domain="global" view="Default view">a31a18b38380561067c3bfc6feaad3ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-22 18:21:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>calleremail</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-22 18:21:24</sys_created_on>
+            <sys_id>5cbc9c778380561067c3bfc6feaad3b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CEB API Endpoint Configuration" display_value="CEB API Endpoint Configuration" name="x_1509365_mktest_carboniteintegrationconfiguration" sys_domain="global" view="Default view">a31a18b38380561067c3bfc6feaad3ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-22 18:21:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>CEB API Endpoint Configuration</caption>
+            <header>false</header>
+            <name>x_1509365_mktest_carboniteintegrationconfiguration</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-22 18:10:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a31a18b38380561067c3bfc6feaad3ce</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1509365_mktest_carboniteintegrationconfiguration</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+            <sys_update_name>sys_ui_section_a31a18b38380561067c3bfc6feaad3ce</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-22 18:21:24</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</application>
+        <file_path/>
+        <instance_id>9af368c9ff8b8e1cc80bf8e4fc4fd918</instance_id>
+        <instance_name>dev276176</instance_name>
+        <name>sys_ui_section_a31a18b38380561067c3bfc6feaad3ce</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="CEB API Endpoint Configuration" section_id="a31a18b38380561067c3bfc6feaad3ce" sys_domain="global" table="x_1509365_mktest_carboniteintegrationconfiguration" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>apikeysecret</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-22 18:21:24</sys_created_on><sys_id>5cbc9c778380561067c3bfc6feaad3b7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="CEB API Endpoint Configuration" display_value="CEB API Endpoint Configuration" name="x_1509365_mktest_carboniteintegrationconfiguration" sys_domain="global" view="Default view">a31a18b38380561067c3bfc6feaad3ce</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-22 18:21:24</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>baseurl</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-22 18:21:24</sys_created_on><sys_id>54bc9c778380561067c3bfc6feaad3b8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="CEB API Endpoint Configuration" display_value="CEB API Endpoint Configuration" name="x_1509365_mktest_carboniteintegrationconfiguration" sys_domain="global" view="Default view">a31a18b38380561067c3bfc6feaad3ce</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-22 18:21:24</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>calleremail</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-22 18:21:24</sys_created_on><sys_id>5cbc9c778380561067c3bfc6feaad3b8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="CEB API Endpoint Configuration" display_value="CEB API Endpoint Configuration" name="x_1509365_mktest_carboniteintegrationconfiguration" sys_domain="global" view="Default view">a31a18b38380561067c3bfc6feaad3ce</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-22 18:21:24</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>CEB API Endpoint Configuration</caption><header>false</header><name>x_1509365_mktest_carboniteintegrationconfiguration</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-22 18:10:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a31a18b38380561067c3bfc6feaad3ce</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1509365_mktest_carboniteintegrationconfiguration</sys_name><sys_overrides/><sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package><sys_policy/><sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope><sys_update_name>sys_ui_section_a31a18b38380561067c3bfc6feaad3ce</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-22 18:21:24</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1962323781</payload_hash>
+        <record_name>CarboniteIntegrationConfiguration</record_name>
+        <reverted_from/>
+        <source>cf166eb683ff421067c3bfc6feaad3e3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 18:21:24</sys_created_on>
+        <sys_id>9cbc9c778380561067c3bfc6feaad3ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1917b526b8a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 18:21:24</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>54bc9c7765805610b80b292a002c5dba</update_guid>
+        <update_guid_history>54bc9c7765805610b80b292a002c5dba:1962323781,04bc9c771a8056103609602f2b9de57a:-1969588042,e31a58b3a6805610605024e025e74e87:-1665312909,a71a18b38f805610e44e1f1b148ef2d1:-120223717</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 18:23:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>40ce82f0b36144c192c18fd008885841</sys_id>
+        <sys_metadata>a31a18b38380561067c3bfc6feaad3ce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CEB API Endpoint Configuration</sys_name>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_parent display_value="CarboniteIntegrationConfiguration">3abd5bd78348d21067c3bfc6feaad3c3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_scope_delete display_value="">00d6e8758b3c478ab66d14f0d8f1bde1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_a31a18b38380561067c3bfc6feaad3ce</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_a31a18b38380561067c3bfc6feaad3ce">9cbc9c778380561067c3bfc6feaad3ba</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 18:23:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

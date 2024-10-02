@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1509365_mktest.TableScripts_Utils</api_name>
+        <caller_access>1</caller_access>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>TableScripts_Utils</name>
+        <script><![CDATA[var TableScript_Utils = Class.create();
+TableScript_Utils.prototype = {
+    initialize: function(tableLabel, tableName, extendsto, columnjson) {
+        this.Label = tableLabel;
+        this.Name = tableName;
+        this.Moduleneeded = false;
+        this.TableExtends = extendsto;
+        this.ColumnsJSON = columnjson; // comma delimited list of column names. by default, the type of column would be "string". change it as per your requirement.
+    },
+    createTable: function() {
+        var tc = new global.GlideTableCreator(this.Name, this.Label);
+        var columnattrs = this.getColumns();
+        tc.setColumnAttributes(columnattrs);
+        if (typeof this.TableExtends != 'undefined')
+            tc.setExtends(this.TableExtends);
+        tc.update();
+        gs.sleep(10000); //wait for table to be updated.
+
+    },
+    getColumns: function() {
+        var attrs = new Packages.java.util.HashMap();
+        var arrcolumns = this.ColumnsJSON.split(',');
+        for (var clm = 0; clm < arrcolumns.length; clm++) {
+            var ca = new GlideColumnAttributes(arrcolumns[clm]);
+            ca.setType("string");
+            ca.setUsePrefix(true); // this can be changed if you don't want to add "u_" prefix to the column
+            attrs.put(arrcolumns[clm], ca);
+        }
+        return attrs;
+    },
+    type: 'TableScript_Utils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 19:01:34</sys_created_on>
+        <sys_id>40d9db938348d21067c3bfc6feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TableScripts_Utils</sys_name>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name>sys_script_include_40d9db938348d21067c3bfc6feaad317</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 19:01:34</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</application>
+        <file_path/>
+        <instance_id>9af368c9ff8b8e1cc80bf8e4fc4fd918</instance_id>
+        <instance_name>dev276176</instance_name>
+        <name>sys_script_include_40d9db938348d21067c3bfc6feaad317</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1509365_mktest.TableScripts_Utils&lt;/api_name&gt;&lt;caller_access&gt;1&lt;/caller_access&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;TableScripts_Utils&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var TableScript_Utils = Class.create();
+TableScript_Utils.prototype = {
+    initialize: function(tableLabel, tableName, extendsto, columnjson) {
+        this.Label = tableLabel;
+        this.Name = tableName;
+        this.Moduleneeded = false;
+        this.TableExtends = extendsto;
+        this.ColumnsJSON = columnjson; // comma delimited list of column names. by default, the type of column would be "string". change it as per your requirement.
+    },
+    createTable: function() {
+        var tc = new global.GlideTableCreator(this.Name, this.Label);
+        var columnattrs = this.getColumns();
+        tc.setColumnAttributes(columnattrs);
+        if (typeof this.TableExtends != 'undefined')
+            tc.setExtends(this.TableExtends);
+        tc.update();
+        gs.sleep(10000); //wait for table to be updated.
+
+    },
+    getColumns: function() {
+        var attrs = new Packages.java.util.HashMap();
+        var arrcolumns = this.ColumnsJSON.split(',');
+        for (var clm = 0; clm &lt; arrcolumns.length; clm++) {
+            var ca = new GlideColumnAttributes(arrcolumns[clm]);
+            ca.setType("string");
+            ca.setUsePrefix(true); // this can be changed if you don't want to add "u_" prefix to the column
+            attrs.put(arrcolumns[clm], ca);
+        }
+        return attrs;
+    },
+    type: 'TableScript_Utils'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-21 19:01:34&lt;/sys_created_on&gt;&lt;sys_id&gt;40d9db938348d21067c3bfc6feaad317&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;TableScripts_Utils&lt;/sys_name&gt;&lt;sys_package display_value="MKTest" source="x_1509365_mktest"&gt;4f166eb683ff421067c3bfc6feaad3df&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="MKTest"&gt;4f166eb683ff421067c3bfc6feaad3df&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_40d9db938348d21067c3bfc6feaad317&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-21 19:01:34&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>99763225</payload_hash>
+        <record_name>TableScripts_Utils</record_name>
+        <reverted_from/>
+        <source>cf166eb683ff421067c3bfc6feaad3e3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-21 19:01:34</sys_created_on>
+        <sys_id>324c1f578348d21067c3bfc6feaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1917650d46a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-21 19:01:34</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>f24c1f576b48d2108629b4af57d8c951</update_guid>
+        <update_guid_history>f24c1f576b48d2108629b4af57d8c951:99763225</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 18:19:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>01c0a507f9ed49da80bf22cb6f131104</sys_id>
+        <sys_metadata>40d9db938348d21067c3bfc6feaad317</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TableScripts_Utils</sys_name>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_scope_delete display_value="">00d6e8758b3c478ab66d14f0d8f1bde1</sys_scope_delete>
+        <sys_update_name>sys_script_include_40d9db938348d21067c3bfc6feaad317</sys_update_name>
+        <sys_update_version display_value="sys_script_include_40d9db938348d21067c3bfc6feaad317">324c1f578348d21067c3bfc6feaad352</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-19 18:19:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

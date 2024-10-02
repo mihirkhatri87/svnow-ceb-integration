@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>Test_Carb_Integration_Connection</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+	if(g_form.getValue('baseurl') == '' || g_form.getValue('calleremail') == '' || g_form.getValue('apikeysecret') == ''){
+		//Remove any existing field message, set comments mandatory, and show a new field message
+		g_form.hideFieldMsg('baseurl');
+		g_form.hideFieldMsg('calleremail');
+		g_form.hideFieldMsg('apikeysecret');
+		g_form.setMandatory('baseurl', true);
+		g_form.setMandatory('calleremail', true);
+		g_form.setMandatory('apikeysecret', true);
+		g_form.showFieldMsg('baseurl','API Endpoint is mandatory for testing connection','error');
+		g_form.showFieldMsg('calleremail','Email is mandatory for testing connection','error');
+		g_form.showFieldMsg('apikeysecret','API Key is mandatory for testing connection','error');
+		return false; //Abort submission
+	}
+	var actionName = g_form.getActionName();
+	g_form.submit(actionName);
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>true</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>true</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style>primary</list_style>
+        <messages/>
+        <name>Test Connection</name>
+        <onclick>testConnection()</onclick>
+        <order>100</order>
+        <script><![CDATA[//Client-side 'onclick' function
+function testConnection(){
+	if(g_form.getValue('baseurl') == '' || g_form.getValue('calleremail') == '' || g_form.getValue('apikeysecret') == ''){
+		//Remove any existing field message, set comments mandatory, and show a new field message
+		g_form.hideFieldMsg('baseurl');
+		g_form.hideFieldMsg('calleremail');
+		g_form.hideFieldMsg('apikeysecret');
+		g_form.setMandatory('baseurl', true);
+		g_form.setMandatory('calleremail', true);
+		g_form.setMandatory('apikeysecret', true);
+		g_form.showFieldMsg('baseurl','API Endpoint is mandatory for testing connection','error');
+		g_form.showFieldMsg('calleremail','Email is mandatory for testing connection','error');
+		g_form.showFieldMsg('apikeysecret','API Key is mandatory for testing connection','error');
+		return false; //Abort submission
+	}
+	//Call the UI Action and skip the 'onclick' function
+	gsftSubmit(null, g_form.getFormElement(), 'Test_Carb_Integration_Connection'); //MUST call the 'Action name' set in this UI Action
+}
+//Code that runs without 'onclick'
+//Ensure call to server-side function with no browser errors
+if(typeof window == 'undefined')
+serverTestConnection();
+function serverTestConnection(){
+	if(g_form != null)
+	{
+		gs.addInfoMessage(g_form);
+	}
+	else {
+		gs.addInfoMessage("Hello");
+	}
+	
+	var r = new sn_ws.RESTMessageV2();
+	r.setEndpoint(current.baseurl+"tokens/apikey");
+	r.setHttpMethod("POST");
+	r.setRequestHeader("Content","application/json");
+	r.setRequestHeader("Content-Type","application/json");
+	r.setRequestBody('{"Email": "'+current.calleremail+'","APIKeySecret": "'+current.apikeysecret+'", "TokenReason": "APICall"}');
+	
+	var response = r.execute();
+	var responseBody = JSON.parse(response.getBody());
+	if(response.getStatusCode() == 201 && responseBody.access_token != '')
+	{
+		gs.addInfoMessage('Connection successful !');
+	}
+	else {
+		gs.addErrorMessage('Failed to connect !');
+	}
+	action.setRedirectURL(current);
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 14:06:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8e2c272c83bc921067c3bfc6feaad31c</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Test Connection</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name>sys_ui_action_8e2c272c83bc921067c3bfc6feaad31c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-19 19:07:59</sys_updated_on>
+        <table>x_1509365_mktest_carboniteintegrationconfiguration</table>
+        <ui11_compatible>false</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

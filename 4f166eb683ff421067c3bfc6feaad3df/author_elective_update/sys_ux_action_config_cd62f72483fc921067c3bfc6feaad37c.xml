@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_action_config">
+    <sys_ux_action_config action="DELETE">
+        <active>true</active>
+        <description/>
+        <name>CarboniteIntegrationActionConfig</name>
+        <sys_class_name>sys_ux_action_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 14:22:10</sys_created_on>
+        <sys_id>cd62f72483fc921067c3bfc6feaad37c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CarboniteIntegrationActionConfig</sys_name>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name>sys_ux_action_config_cd62f72483fc921067c3bfc6feaad37c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-19 14:22:10</sys_updated_on>
+    </sys_ux_action_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</application>
+        <file_path/>
+        <instance_id>9af368c9ff8b8e1cc80bf8e4fc4fd918</instance_id>
+        <instance_name>dev276176</instance_name>
+        <name>sys_ux_action_config_cd62f72483fc921067c3bfc6feaad37c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_action_config"><sys_ux_action_config action="INSERT_OR_UPDATE"><active>true</active><description/><name>CarboniteIntegrationActionConfig</name><sys_class_name>sys_ux_action_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-19 14:22:10</sys_created_on><sys_id>cd62f72483fc921067c3bfc6feaad37c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CarboniteIntegrationActionConfig</sys_name><sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package><sys_policy/><sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope><sys_update_name>sys_ux_action_config_cd62f72483fc921067c3bfc6feaad37c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-19 14:22:10</sys_updated_on></sys_ux_action_config></record_update>]]></payload>
+        <payload_hash>2108523582</payload_hash>
+        <record_name>CarboniteIntegrationActionConfig</record_name>
+        <reverted_from/>
+        <source>cf166eb683ff421067c3bfc6feaad3e3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 14:22:10</sys_created_on>
+        <sys_id>b0723b2483fc921067c3bfc6feaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1920aa975ce0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-19 14:22:10</sys_updated_on>
+        <type>UX Actions Configuration</type>
+        <update_guid>b4723b24cafc9210dda9004084c2e2f3</update_guid>
+        <update_guid_history>b4723b24cafc9210dda9004084c2e2f3:2108523582</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 14:24:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_action_config">sys_ux_action_config</sys_db_object>
+        <sys_id>05dc67c5c6a64b948101b3eb752a3d90</sys_id>
+        <sys_metadata>cd62f72483fc921067c3bfc6feaad37c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CarboniteIntegrationActionConfig</sys_name>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_scope_delete display_value="">00d6e8758b3c478ab66d14f0d8f1bde1</sys_scope_delete>
+        <sys_update_name>sys_ux_action_config_cd62f72483fc921067c3bfc6feaad37c</sys_update_name>
+        <sys_update_version display_value="sys_ux_action_config_cd62f72483fc921067c3bfc6feaad37c">b0723b2483fc921067c3bfc6feaad3f4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-19 14:24:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

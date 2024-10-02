@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3abd5bd78348d21067c3bfc6feaad3c3" label="CarboniteIntegrationConfiguration" max_length="40" name="x_1509365_mktest_carboniteintegrationconfiguration" type="collection">
+        <element choice="3" label="Incident Impact" mandatory="true" max_length="10" name="incidentimpact" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="0" value="Low"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+            </choice>
+        </element>
+        <element choice="3" default="Low" label="Incident Urgency" mandatory="true" max_length="10" name="incidenceurgency" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+                <element inactive_on_update="false" label="Low" sequence="0" value="Low"/>
+            </choice>
+        </element>
+        <element label="API Key Secret" mandatory="true" max_length="255" name="apikeysecret" type="password2"/>
+        <element label="Incident Admin" mandatory="true" max_length="32" name="assignedadmin" reference="sys_user" type="reference"/>
+        <element choice="3" default="3" label="How many times should a failure repeat before being reported" mandatory="true" max_length="40" name="occurencecountthreshold" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="6" sequence="3" value="6"/>
+                <element inactive_on_update="false" label="3" sequence="0" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="1" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="2" value="5"/>
+            </choice>
+        </element>
+        <element choice="3" default="Low" label="IncidentPriority" mandatory="true" max_length="10" name="incidentpriority" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+                <element inactive_on_update="false" label="Low" sequence="0" value="Low"/>
+            </choice>
+        </element>
+        <element choice="3" default="0 04:00:00" label="How frequently should the devices be scanned" mandatory="true" max_length="40" name="schedulefrequency" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Daily" sequence="3" value="1 00:00:00"/>
+                <element inactive_on_update="false" label="4 Hours" sequence="0" value="0 04:00:00"/>
+                <element inactive_on_update="false" label="6 Hours" sequence="1" value="0 06:00:00"/>
+                <element inactive_on_update="false" label="10 Seconds" sequence="6" value="0 00:00:10"/>
+                <element inactive_on_update="false" label="Every 2 Days" sequence="4" value="2 00:00:00"/>
+                <element inactive_on_update="false" label="12 Hours" sequence="2" value="0 12:00:00"/>
+                <element inactive_on_update="false" label="Weekly" sequence="5" value="7 00:00:00"/>
+            </choice>
+        </element>
+        <element display="true" label="CEB API Endpoint Base URL" mandatory="true" max_length="150" name="baseurl" type="url"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Email Address" mandatory="true" max_length="100" name="calleremail" type="string"/>
+        <index name="index">
+            <element name="assignedadmin"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

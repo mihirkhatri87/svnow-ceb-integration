@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Record Page(task)">5196aaf676ff4210a371daea9237ecec</macroponent>
+        <name>record_header_1/headerImageItem</name>
+        <preset/>
+        <required_translations/>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    if (api.context.props.table == 'sc_req_item') {
+        return {
+            headerImage: api.data.look_up_record_2.result.picture.displayValue,
+            fieldLabel: "Test value" //Here only to support the required structure of the object
+        }
+    } else {
+        return "";
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-08-07 15:34:18</sys_created_on>
+        <sys_id>1596aaf65aff4210d7b94307a71b57cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>record_header_1/headerImageItem</sys_name>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name>sys_ux_client_script_1596aaf65aff4210d7b94307a71b57cd</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-08-07 15:34:18</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

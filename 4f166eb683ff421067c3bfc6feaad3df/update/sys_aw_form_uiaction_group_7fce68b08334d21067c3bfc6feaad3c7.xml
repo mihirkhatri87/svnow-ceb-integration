@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_form_uiaction_group">
+    <sys_aw_form_uiaction_group action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <color>primary</color>
+        <description/>
+        <name>Save</name>
+        <order>100</order>
+        <overflow>false</overflow>
+        <sys_class_name>sys_aw_form_uiaction_group</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 18:47:27</sys_created_on>
+        <sys_id>7fce68b08334d21067c3bfc6feaad3c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Save</sys_name>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name>sys_aw_form_uiaction_group_7fce68b08334d21067c3bfc6feaad3c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-19 18:47:27</sys_updated_on>
+        <type>0</type>
+        <ui_action_layout display_value="CEB Integration Action Layout">639e64b08334d21067c3bfc6feaad3c1</ui_action_layout>
+        <ui_actions>f4deef100b701300099a83eb37673a4d</ui_actions>
+    </sys_aw_form_uiaction_group>
+</record_update>

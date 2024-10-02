@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <max_drift/>
+        <name>CarboniteTestDataPullTemplate</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-08 00:00:00</run_period>
+        <run_start>2024-09-18 17:21:05</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>periodically</run_type>
+        <script><![CDATA[try {
+	var baseUrl, baseDashboardUrl, appearanceCountThreshold, email, apiKey, defaultUrgency, defaultImpact, assignedAdmin, scheduleFrequency;
+	var gr = new GlideRecord('x_1509365_mktest_carboniteintegrationconfiguration');
+	gr.query();
+	while(gr.next())
+	{
+		baseUrl = gr.baseurl;
+		if (baseUrl != null)
+			baseDashboardUrl = baseUrl.replace("api/","");
+		email = gr.calleremail;
+		apiKey = gr.apikeysecret;
+		appearanceCountThreshold = gr.occurencecountthreshold;
+		defaultUrgency = gr.incidenceurgency;
+		defaultImpact = gr.incidentimpact;
+		assignedAdmin = gr.assignedadmin;
+		scheduleFrequency = gr.schedulefrequency;
+	}
+	
+	if(baseUrl != null && baseDashboardUrl != null && email != null && apiKey != null && appearanceCountThreshold != null && defaultUrgency != null && defaultImpact != null && assignedAdmin != null && scheduleFrequency != null)
+	{
+		var r = new sn_ws.RESTMessageV2();
+		r.setEndpoint(baseUrl+"tokens/apikey");
+		r.setHttpMethod("POST");
+		r.setRequestHeader("Content","application/json");
+		r.setRequestHeader("Content-Type","application/json");
+		r.setRequestBody('{"Email": "'+email+'","APIKeySecret": "'+apiKey+'", "TokenReason": "APICall"}');
+		var response = r.execute();
+		var responseBody = response.getBody();
+		var access_token = "Bearer " + JSON.parse(responseBody).access_token;
+				r = new sn_ws.RESTMessageV2();
+		r.setEndpoint(baseUrl + "devices/list");
+		r.setHttpMethod("POST");
+		r.setRequestHeader("Content","application/json");
+		r.setRequestHeader("Content-Type","application/json");
+		r.setRequestHeader("Authorization",access_token);
+		r.setRequestBody('{"FilterBy": "DevicesWithBackupAlerts","SortField": "BackupHealthStatusReason","SortDirection": "Desc"}');
+		response = r.execute();
+		responseBody = response.getBody();
+
+
+		// Raise an incident in case there were problematic devices
+		backupHealthResponse = JSON.parse(responseBody);
+		gs.info(backupHealthResponse.Devices.length + ' problematic Devices');
+		if(backupHealthResponse != null && backupHealthResponse.Devices != null && backupHealthResponse.Devices.length > 0) {
+			var notInList = [];
+			
+			for(var i = 0; i< backupHealthResponse.Devices.length; i++) {
+				gr = new GlideRecord('x_1509365_mktest_carbonitebackuphealthrecords');
+				gr.addQuery('deviceid', backupHealthResponse.Devices[i].DeviceId);
+				gr.addQuery('enabled', true);
+				gr.query();
+				notInList.push(backupHealthResponse.Devices[i].DeviceId);
+				var recordInsertRequired = true;
+				var incidentRaiseRequired = false;
+				while (gr.next()) {
+					gs.info("Matching device found");
+					gs.info(gr.backuphealthstatus +" "+ backupHealthResponse.Devices[i].BackupHealthStatus + ", "+ gr.backuphealthreason + " " + backupHealthResponse.Devices[i].BackupHealthReason);
+					if(gr.backuphealthstatus == backupHealthResponse.Devices[i].BackupHealthStatus && gr.backuphealthreason == backupHealthResponse.Devices[i].BackupHealthReason)
+					{
+						gs.info(gr.appearancecount+" "+appearanceCountThreshold);
+						recordInsertRequired = false;
+						gr.appearancecount += 1;
+						if (gr.appearancecount >= appearanceCountThreshold) {
+							gs.info("Threshold breached");
+							var notInIndex = notInList.indexOf(backupHealthResponse.Devices[i].DeviceId);
+							notInList.splice(notInIndex,1);
+							incidentRaiseRequired = true;
+						}
+						else {
+							gs.info("Updating occurance count");
+							gr.update();
+						}
+					}
+				}
+				
+				if(recordInsertRequired)
+				{
+					gs.info("inserting record");
+					gr.initialize();
+					gr.deviceid = backupHealthResponse.Devices[i].DeviceId;
+					gr.devicename = backupHealthResponse.Devices[i].DeviceName;
+					gr.username = backupHealthResponse.Devices[i].FirstName + " " + backupHealthResponse.Devices[i].LastName;
+					gr.useremail = backupHealthResponse.Devices[i].UserEmail;
+					gr.backuphealthstatus = backupHealthResponse.Devices[i].BackupHealthStatus;
+					gr.backuphealthreason = backupHealthResponse.Devices[i].BackupHealthReason;
+					gr.enabled = true;
+					gr.appearancecount = 1;
+					gr.insert();
+				}
+
+				if(incidentRaiseRequired) {
+					gs.info("Raising incident");
+					var incident_description = "Problem detected with following device\n\n";
+					incident_description += "Device Name: "+backupHealthResponse.Devices[i].DeviceName+"\n";
+					incident_description += "Device State: "+backupHealthResponse.Devices[i].DeviceState+"\n";
+					incident_description += "Device User: "+backupHealthResponse.Devices[i].UserEmail+"\n";
+					incident_description += "Backup Health Status: "+backupHealthResponse.Devices[i].BackupHealthStatus+"\n";
+					incident_description += "Backup Health Reason: "+backupHealthResponse.Devices[i].BackupHealthReason+"\n\n";
+					gr = new GlideRecord('incident');
+					gr.initialize();
+					gr.requested_for = gs.getUserID();
+					gr.assigned_to = assignedAdmin;
+					gr.category = "Software";
+					gr.priority = "Planning";
+					gr.impact = defaultImpact;
+					gr.urgency = defaultUrgency;
+					gr.short_description = 'Issue with CEB Device: '+ backupHealthResponse.Devices[i].DeviceName;
+					gr.description = incident_description; 
+					gr.comments = incident_description;
+					gr.insert();
+				}
+			}
+			
+			var grDelete = new GlideRecord('x_1509365_mktest_carbonitebackuphealthrecords');  // Querying the backuphealthrecords table
+			if(notInList.length > 0)
+			{
+				grDelete.addQuery('deviceid', 'NOT IN', notInList);  // Adding NOT IN query
+			}
+			grDelete.addQuery('enabled',true);
+			grDelete.query();
+			// Delete the backup health records for which either an incident has been raised or are not appearing consecutively
+			while (grDelete.next()) {
+				grDelete.deleteRecord();
+			}
+		}
+	}
+}catch(ex){
+    throw ex;
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 19:27:04</sys_created_on>
+        <sys_id>443bf5a083a8521067c3bfc6feaad3d0</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_name>CarboniteTestDataPullTemplate</sys_name>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name>sysauto_script_443bf5a083a8521067c3bfc6feaad3d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 17:22:20</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

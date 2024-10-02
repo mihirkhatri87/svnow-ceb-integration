@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Requests Dataset">d596aaf6a6ff4210f836965f124bc3ca</dataset>
+        <datasource display_value="My Request - Task Datasource">5596aaf6b4ff42103237072144e5edc9</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-08-07 15:34:18</sys_created_on>
+        <sys_id>1596aaf68dff42105636f9f12e3405c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_1596aaf68dff42105636f9f12e3405c7</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-08-07 15:34:18</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

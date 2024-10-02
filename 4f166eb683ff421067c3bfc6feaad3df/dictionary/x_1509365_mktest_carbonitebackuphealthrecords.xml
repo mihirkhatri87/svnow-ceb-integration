@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f06edf578348d21067c3bfc6feaad3c8" label="CarboniteBackupHealthRecords" max_length="40" name="x_1509365_mktest_carbonitebackuphealthrecords" type="collection">
+        <element label="IncidentId" max_length="40" name="incidentid" type="string"/>
+        <element label="DeviceId" max_length="40" name="deviceid" type="string"/>
+        <element label="DeviceName" max_length="40" name="devicename" type="string"/>
+        <element label="BackupHealthStatus" max_length="40" name="backuphealthstatus" type="string"/>
+        <element label="Enabled" max_length="40" name="enabled" type="boolean"/>
+        <element label="AppearanceCount" max_length="40" name="appearancecount" type="integer"/>
+        <element label="UserEmail" max_length="40" name="useremail" type="string"/>
+        <element label="BackupHealthReason" max_length="40" name="backuphealthreason" type="string"/>
+        <element label="UserName" max_length="40" name="username" type="string"/>
+    </element>
+</database>

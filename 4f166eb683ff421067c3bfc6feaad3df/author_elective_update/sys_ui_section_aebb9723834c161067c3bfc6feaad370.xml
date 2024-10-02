@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="aebb9723834c161067c3bfc6feaad370" sys_domain="global" table="x_1509365_mktest_carboniteintegrationconfiguration" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>baseurl</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-22 13:56:40</sys_created_on>
+            <sys_id>9610ef6b834c161067c3bfc6feaad302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1509365_mktest_carboniteintegrationconfiguration" sys_domain="global" view="Default view">aebb9723834c161067c3bfc6feaad370</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-22 13:56:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>calleremail</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-22 13:56:40</sys_created_on>
+            <sys_id>1e10ef6b834c161067c3bfc6feaad302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1509365_mktest_carboniteintegrationconfiguration" sys_domain="global" view="Default view">aebb9723834c161067c3bfc6feaad370</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-22 13:56:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>apikeysecret</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-22 13:56:40</sys_created_on>
+            <sys_id>9210ef6b834c161067c3bfc6feaad303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1509365_mktest_carboniteintegrationconfiguration" sys_domain="global" view="Default view">aebb9723834c161067c3bfc6feaad370</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-22 13:56:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>schedulefrequency</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-22 13:56:40</sys_created_on>
+            <sys_id>1a10ef6b834c161067c3bfc6feaad303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1509365_mktest_carboniteintegrationconfiguration" sys_domain="global" view="Default view">aebb9723834c161067c3bfc6feaad370</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-22 13:56:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>occurencecountthreshold</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-22 13:56:40</sys_created_on>
+            <sys_id>9e10ef6b834c161067c3bfc6feaad303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1509365_mktest_carboniteintegrationconfiguration" sys_domain="global" view="Default view">aebb9723834c161067c3bfc6feaad370</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-22 13:56:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>incidenceurgency</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-22 13:56:40</sys_created_on>
+            <sys_id>1610ef6b834c161067c3bfc6feaad304</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1509365_mktest_carboniteintegrationconfiguration" sys_domain="global" view="Default view">aebb9723834c161067c3bfc6feaad370</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-22 13:56:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1509365_mktest_carboniteintegrationconfiguration</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-22 13:37:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aebb9723834c161067c3bfc6feaad370</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1509365_mktest_carboniteintegrationconfiguration</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+            <sys_update_name>sys_ui_section_aebb9723834c161067c3bfc6feaad370</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-22 13:37:34</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</application>
+        <file_path/>
+        <instance_id>9af368c9ff8b8e1cc80bf8e4fc4fd918</instance_id>
+        <instance_name>dev276176</instance_name>
+        <name>sys_ui_section_aebb9723834c161067c3bfc6feaad370</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="aebb9723834c161067c3bfc6feaad370" sys_domain="global" table="x_1509365_mktest_carboniteintegrationconfiguration" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>baseurl</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-22 13:56:40</sys_created_on><sys_id>9610ef6b834c161067c3bfc6feaad302</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1509365_mktest_carboniteintegrationconfiguration" sys_domain="global" view="Default view">aebb9723834c161067c3bfc6feaad370</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-22 13:56:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>calleremail</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-22 13:56:40</sys_created_on><sys_id>1e10ef6b834c161067c3bfc6feaad302</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1509365_mktest_carboniteintegrationconfiguration" sys_domain="global" view="Default view">aebb9723834c161067c3bfc6feaad370</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-22 13:56:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>apikeysecret</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-22 13:56:40</sys_created_on><sys_id>9210ef6b834c161067c3bfc6feaad303</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1509365_mktest_carboniteintegrationconfiguration" sys_domain="global" view="Default view">aebb9723834c161067c3bfc6feaad370</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-22 13:56:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>schedulefrequency</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-22 13:56:40</sys_created_on><sys_id>1a10ef6b834c161067c3bfc6feaad303</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1509365_mktest_carboniteintegrationconfiguration" sys_domain="global" view="Default view">aebb9723834c161067c3bfc6feaad370</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-22 13:56:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>occurencecountthreshold</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-22 13:56:40</sys_created_on><sys_id>9e10ef6b834c161067c3bfc6feaad303</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1509365_mktest_carboniteintegrationconfiguration" sys_domain="global" view="Default view">aebb9723834c161067c3bfc6feaad370</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-22 13:56:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>incidenceurgency</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-22 13:56:40</sys_created_on><sys_id>1610ef6b834c161067c3bfc6feaad304</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1509365_mktest_carboniteintegrationconfiguration" sys_domain="global" view="Default view">aebb9723834c161067c3bfc6feaad370</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-22 13:56:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1509365_mktest_carboniteintegrationconfiguration</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-22 13:37:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>aebb9723834c161067c3bfc6feaad370</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1509365_mktest_carboniteintegrationconfiguration</sys_name><sys_overrides/><sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package><sys_policy/><sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope><sys_update_name>sys_ui_section_aebb9723834c161067c3bfc6feaad370</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-22 13:37:34</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>69134334</payload_hash>
+        <record_name>CarboniteIntegrationConfiguration</record_name>
+        <reverted_from/>
+        <source>cf166eb683ff421067c3bfc6feaad3e3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 13:56:40</sys_created_on>
+        <sys_id>1a10ef6b834c161067c3bfc6feaad306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1917a600a6e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 13:56:40</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>de10ef6bb14c1610b75b9d4253e94705</update_guid>
+        <update_guid_history>de10ef6bb14c1610b75b9d4253e94705:69134334,f41e53e75d4c16107d8ce4b024e0cf6a:-2099831676,eaedd7a7264c16102f95c72e29244d27:-1932357093,b3ccd767fc4c1610bd122f67aa00774d:-1677260207,a59c5367d14c1610358ff98767d4f15e:-1084001419,e35cdb276c4c161005b9281b39448fa9:-1862725303,a2bb9fe3784c161010c5a42d8afd46a2:-1104809816,e2bb9fe3b34c161018dd60fe670e1d9f:508442966</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-22 18:09:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>46bd7c66f4054706985729081903e464</sys_id>
+        <sys_metadata>aebb9723834c161067c3bfc6feaad370</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1509365_mktest_carboniteintegrationconfiguration</sys_name>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_parent display_value="CarboniteIntegrationConfiguration">3abd5bd78348d21067c3bfc6feaad3c3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_scope_delete display_value="">00d6e8758b3c478ab66d14f0d8f1bde1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_aebb9723834c161067c3bfc6feaad370</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_aebb9723834c161067c3bfc6feaad370">1a10ef6b834c161067c3bfc6feaad306</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-22 18:09:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

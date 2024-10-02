@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1509365_mktest.InsertUpdateCarbConfigurationInfo</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>InsertUpdateCarbConfigurationInfo</name>
+        <script><![CDATA[var InsertUpdateCarbConfigurationInfo = Class.create();
+InsertUpdateCarbConfigurationInfo.prototype = {
+    initialize: function() {
+    },
+	/**
+     * Inserts/Updates a record into the u_employee table.
+     * @param {Object} params - Parameters passed from the client script.
+     * @returns {Object} - Result object indicating success or failure.
+     */
+    processRecord: function(params) {
+        try {
+            // Validate the required parameters
+            if (!params.restEndpoint || !params.emailAddress || !params.apiKey || 
+				!params.checkInFrequency || !params.triggerThreshold || !params.defaultImpact || 
+				!params.defaultUrgency) {
+                return {
+                    success: false,
+                    error: 'Missing required parameters: Rest Endpoint, Email Address, API Key, Check-In Frequency, Trigger Threshold, Incident Impact, Incident Urgency'
+                };
+            }
+
+            var gr = new GlideRecord('x_1509365_mktest_carboniteintegrationconfiguration');
+
+            // Query the table for any existing record
+            gr.query();
+
+            var isUpdate = false;
+            if (gr.next()) {
+                // Record exists, update it
+                isUpdate = true;
+            } else {
+                // Record does not exist, insert a new one
+                gr.initialize();
+            }
+
+			gr.baseurl = params.restEndpoint;
+            gr.calleremail = params.emailAddress;
+            gr.apikeysecret = params.apiKey;
+			gr.incidentimpact = params.defaultImpact;
+			gr.occurencecountthreshold = params.triggerThreshold;
+			gr.schedulefrequency = params.checkInFrequency;
+			gr.incidenturgency = params.defaultUrgency;
+
+			if(isUpdate) {
+                gr.update();  // Update the existing record
+			}
+			else {
+				gr.insert();  // Insert a new record
+			}
+
+            return {
+                success: true,
+                sys_id: gr.getUniqueValue(),
+                action: isUpdate ? 'update' : 'insert'
+            };
+        } catch (e) {
+            gs.error('InsertUpdateCarbConfigurationInfo Error: ' + e.message);
+            return {
+                success: false,
+                error: e.message
+            };
+        }
+    },
+    type: 'InsertUpdateCarbConfigurationInfo'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-23 14:02:43</sys_created_on>
+        <sys_id>a4666c8c8394961067c3bfc6feaad3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>InsertUpdateCarbConfigurationInfo</sys_name>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name>sys_script_include_a4666c8c8394961067c3bfc6feaad3ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-23 14:02:43</sys_updated_on>
+    </sys_script_include>
+</record_update>

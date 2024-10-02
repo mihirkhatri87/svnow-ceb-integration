@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">6c22370683c8d21067c3bfc6feaad3eb</macroponent>
+        <name>startIncidentReporting</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+     
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-19 14:09:45</sys_created_on>
+        <sys_id>5d3304fe8300121067c3bfc6feaad326</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>startIncidentReporting</sys_name>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name>sys_ux_client_script_5d3304fe8300121067c3bfc6feaad326</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-19 14:37:52</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</application>
+        <file_path/>
+        <instance_id>9af368c9ff8b8e1cc80bf8e4fc4fd918</instance_id>
+        <instance_name>dev276176</instance_name>
+        <name>sys_ux_client_script_5d3304fe8300121067c3bfc6feaad326</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default"&gt;6c22370683c8d21067c3bfc6feaad3eb&lt;/macroponent&gt;&lt;name&gt;startIncidentReporting&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+     
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-19 14:09:45&lt;/sys_created_on&gt;&lt;sys_id&gt;5d3304fe8300121067c3bfc6feaad326&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;startIncidentReporting&lt;/sys_name&gt;&lt;sys_package display_value="MKTest" source="x_1509365_mktest"&gt;4f166eb683ff421067c3bfc6feaad3df&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MKTest"&gt;4f166eb683ff421067c3bfc6feaad3df&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_5d3304fe8300121067c3bfc6feaad326&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-19 14:37:52&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1167097178</payload_hash>
+        <record_name>startIncidentReporting</record_name>
+        <reverted_from/>
+        <source>cf166eb683ff421067c3bfc6feaad3e3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-19 14:37:52</sys_created_on>
+        <sys_id>20ccc0be8340121067c3bfc6feaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1916b12b0c00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-19 14:37:52</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>e4ccc0be13401210278c3d7b0b2881b5</update_guid>
+        <update_guid_history>e4ccc0be13401210278c3d7b0b2881b5:1167097178,fc5604b6b7401210ce35a2bd5dd8fef7:198174972</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-23 14:42:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>2194eb55dff641c4895d185a3d54aa24</sys_id>
+        <sys_metadata>5d3304fe8300121067c3bfc6feaad326</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>startIncidentReporting</sys_name>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_scope_delete display_value="">00d6e8758b3c478ab66d14f0d8f1bde1</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_5d3304fe8300121067c3bfc6feaad326</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_5d3304fe8300121067c3bfc6feaad326">20ccc0be8340121067c3bfc6feaad3b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-23 14:42:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

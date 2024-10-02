@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{
+    "1a3364d2439d211017b739603ab8f23e": {
+        "inputData": null,
+        "sortCategoriesArray": null
+    },
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": null,
+        "detailsContext": {},
+        "fields": null,
+        "forcedViewName": "Default view",
+        "inputActionLayoutId": "31bcfc7277b2301058119a372e5a991d",
+        "inputExtraParams": null,
+        "inputQuery": "",
+        "inputSysId": "1d786c6883e0521067c3bfc6feaad3f3",
+        "inputTable": "x_1509365_mktest_carboniteintegrationconfiguration",
+        "screen": null,
+        "selectedTabIndex": null,
+        "shouldDisplayFormErrorsAsPageAlerts": true,
+        "shouldSuppressGlobalEvents": false,
+        "userPrefs": null,
+        "view": "Default view"
+    },
+    "table": "x_1509365_mktest_carboniteintegrationconfiguration",
+    "sysId": "-1",
+    "query": "",
+    "views": "",
+    "activityLogs": "",
+    "extraParams": "",
+    "fields": "",
+    "screen": "",
+    "selectedTabIndex": "",
+    "userPrefs": "",
+    "365c0e890767111017b703767cd3008e": {}
+}</macroponent_config>
+        <screen display_value="Default copy">62ef6a8e8320121067c3bfc6feaad367</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-11 15:06:40</sys_created_on>
+        <sys_id>eeef6a8e8320121067c3bfc6feaad36a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_eeef6a8e8320121067c3bfc6feaad36a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-11 15:06:40</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</application>
+        <file_path/>
+        <instance_id>9af368c9ff8b8e1cc80bf8e4fc4fd918</instance_id>
+        <instance_name>dev276176</instance_name>
+        <name>sys_uib_screen_test_values_eeef6a8e8320121067c3bfc6feaad36a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config>{
+    "1a3364d2439d211017b739603ab8f23e": {
+        "inputData": null,
+        "sortCategoriesArray": null
+    },
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": null,
+        "detailsContext": {},
+        "fields": null,
+        "forcedViewName": "Default view",
+        "inputActionLayoutId": "31bcfc7277b2301058119a372e5a991d",
+        "inputExtraParams": null,
+        "inputQuery": "",
+        "inputSysId": "1d786c6883e0521067c3bfc6feaad3f3",
+        "inputTable": "x_1509365_mktest_carboniteintegrationconfiguration",
+        "screen": null,
+        "selectedTabIndex": null,
+        "shouldDisplayFormErrorsAsPageAlerts": true,
+        "shouldSuppressGlobalEvents": false,
+        "userPrefs": null,
+        "view": "Default view"
+    },
+    "table": "x_1509365_mktest_carboniteintegrationconfiguration",
+    "sysId": "-1",
+    "query": "",
+    "views": "",
+    "activityLogs": "",
+    "extraParams": "",
+    "fields": "",
+    "screen": "",
+    "selectedTabIndex": "",
+    "userPrefs": "",
+    "365c0e890767111017b703767cd3008e": {}
+}</macroponent_config><screen display_value="Default copy">62ef6a8e8320121067c3bfc6feaad367</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-11 15:06:40</sys_created_on><sys_id>eeef6a8e8320121067c3bfc6feaad36a</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package><sys_policy/><sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope><sys_update_name>sys_uib_screen_test_values_eeef6a8e8320121067c3bfc6feaad36a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-11 15:06:40</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>-639866017</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>cf166eb683ff421067c3bfc6feaad3e3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-11 15:06:40</sys_created_on>
+        <sys_id>6eef6a8e8320121067c3bfc6feaad36c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191e19f50d70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-11 15:06:40</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>62ef6a8e2520121005e7028f49f6766c</update_guid>
+        <update_guid_history>62ef6a8e2520121005e7028f49f6766c:-639866017</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-11 15:07:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>184b85492aaf44f9bf08e3fcf0e8a859</sys_id>
+        <sys_metadata>eeef6a8e8320121067c3bfc6feaad36a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_scope_delete display_value="">00d6e8758b3c478ab66d14f0d8f1bde1</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_eeef6a8e8320121067c3bfc6feaad36a</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_eeef6a8e8320121067c3bfc6feaad36a">6eef6a8e8320121067c3bfc6feaad36c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-11 15:07:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

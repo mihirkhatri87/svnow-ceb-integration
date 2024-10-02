@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2024-08-07 15:48:51</change_date>
+        <changed_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</changed_by>
+        <content display_value="Review Flow Designer access settings">b17959a80f382010310be3d1df767e6e</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-07 15:48:51</sys_created_on>
+        <sys_id>dbe9e63e83ff421067c3bfc6feaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2024-08-07 15:48:51</sys_name>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name>gsw_change_log_dbe9e63e83ff421067c3bfc6feaad373</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-07 15:48:51</sys_updated_on>
+        <type>4</type>
+    </gsw_change_log>
+</record_update>

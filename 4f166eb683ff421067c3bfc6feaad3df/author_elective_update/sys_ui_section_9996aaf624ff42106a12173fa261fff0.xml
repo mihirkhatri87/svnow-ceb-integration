@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="9996aaf624ff42106a12173fa261fff0" sys_domain="global" table="sys_user" version="3" view="custom_portal_settings_x_1509365_mktest">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_zone</element>
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-08-07 15:34:19</sys_created_on>
+            <sys_id>1196aaf625ff4210ed4d31fab643b6f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="5d96aaf6d5ff42101ccf4c6b685e7bf0">9996aaf624ff42106a12173fa261fff0</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-08-07 15:34:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-08-07 15:34:19</sys_created_on>
+            <sys_id>d196aaf627ff421054b01349468569f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="5d96aaf6d5ff42101ccf4c6b685e7bf0">9996aaf624ff42106a12173fa261fff0</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-08-07 15:34:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>preferred_language</element>
+            <position>2</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-08-07 15:34:19</sys_created_on>
+            <sys_id>1596aaf6b9ff421029202726fedac0ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="5d96aaf6d5ff42101ccf4c6b685e7bf0">9996aaf624ff42106a12173fa261fff0</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-08-07 15:34:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-08-07 15:34:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9996aaf624ff42106a12173fa261fff0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+            <sys_update_name>sys_ui_section_9996aaf624ff42106a12173fa261fff0</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-08-07 15:34:19</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Custom portal settings (x_1509365_mktest)" name="custom_portal_settings_x_1509365_mktest">5d96aaf6d5ff42101ccf4c6b685e7bf0</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</application>
+        <file_path/>
+        <instance_id>9af368c9ff8b8e1cc80bf8e4fc4fd918</instance_id>
+        <instance_name>dev276176</instance_name>
+        <name>sys_ui_section_9996aaf624ff42106a12173fa261fff0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="9996aaf624ff42106a12173fa261fff0" sys_domain="global" table="sys_user" version="3" view="custom_portal_settings_x_1509365_mktest"><sys_ui_element action="INSERT_OR_UPDATE"><element>time_zone</element><position>0</position><sys_created_by>system</sys_created_by><sys_created_on>2024-08-07 15:34:19</sys_created_on><sys_id>1196aaf625ff4210ed4d31fab643b6f1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="5d96aaf6d5ff42101ccf4c6b685e7bf0">9996aaf624ff42106a12173fa261fff0</sys_ui_section><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-08-07 15:34:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>system</sys_created_by><sys_created_on>2024-08-07 15:34:19</sys_created_on><sys_id>d196aaf627ff421054b01349468569f1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="5d96aaf6d5ff42101ccf4c6b685e7bf0">9996aaf624ff42106a12173fa261fff0</sys_ui_section><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-08-07 15:34:19</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>preferred_language</element><position>2</position><sys_created_by>system</sys_created_by><sys_created_on>2024-08-07 15:34:19</sys_created_on><sys_id>1596aaf6b9ff421029202726fedac0ef</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="5d96aaf6d5ff42101ccf4c6b685e7bf0">9996aaf624ff42106a12173fa261fff0</sys_ui_section><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-08-07 15:34:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>sys_user</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-08-07 15:34:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9996aaf624ff42106a12173fa261fff0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_user</sys_name><sys_overrides/><sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package><sys_policy/><sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope><sys_update_name>sys_ui_section_9996aaf624ff42106a12173fa261fff0</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-08-07 15:34:19</sys_updated_on><sys_user/><title>false</title><view display_value="Custom portal settings (x_1509365_mktest)" name="custom_portal_settings_x_1509365_mktest">5d96aaf6d5ff42101ccf4c6b685e7bf0</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>73277518</payload_hash>
+        <record_name>User</record_name>
+        <reverted_from/>
+        <source>eb5ce6208333021067c3bfc6feaad3f1</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-07-31 16:13:11</sys_created_on>
+        <sys_id>d4f40ffe8373821067c3bfc6feaad372</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19109911dd80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Form Layout</type>
+        <update_guid>94f40ffe9373821039f76149e519ff72</update_guid>
+        <update_guid_history>94f40ffe9373821039f76149e519ff72:73277518</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-08-07 17:46:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>49d59e65b7f14853ba09abbd4f1789c1</sys_id>
+        <sys_metadata>9996aaf624ff42106a12173fa261fff0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user</sys_name>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_parent display_value="Sys User">ba54fb00e412021008dda4ccc4008072</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_scope_delete display_value="">00d6e8758b3c478ab66d14f0d8f1bde1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_9996aaf624ff42106a12173fa261fff0</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_9996aaf624ff42106a12173fa261fff0">d4f40ffe8373821067c3bfc6feaad372</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-08-07 17:46:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access">
+    <sys_restricted_caller_access action="INSERT_OR_UPDATE">
+        <description/>
+        <operation>write</operation>
+        <rca_type>real_rca</rca_type>
+        <source>bb1996e80a0a0b0f00499e4a748ddfb7</source>
+        <source_scope display_value="Global">global</source_scope>
+        <source_table>sys_script_include</source_table>
+        <source_type>2</source_type>
+        <status>2</status>
+        <sys_class_name>sys_restricted_caller_access</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 13:23:21</sys_created_on>
+        <sys_id>dc58e86883e0521067c3bfc6feaad3c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global</sys_name>
+        <sys_package display_value="MKTest" source="x_1509365_mktest">4f166eb683ff421067c3bfc6feaad3df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</sys_scope>
+        <sys_update_name>sys_restricted_caller_access_dc58e86883e0521067c3bfc6feaad3c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 13:23:21</sys_updated_on>
+        <target name="x_1509365_mktest_carboniteintegrationconfiguration" target_table="sys_db_object">3abd5bd78348d21067c3bfc6feaad3c3</target>
+        <target_scope display_value="MKTest">4f166eb683ff421067c3bfc6feaad3df</target_scope>
+        <target_table>sys_db_object</target_table>
+        <target_type>1</target_type>
+    </sys_restricted_caller_access>
+</record_update>
